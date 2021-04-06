@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Homework 10</title>
+</head>
+<body>
+<h1>Homework 10: Geoprocessing Analysis </h1>
+<h2>Joseph Hernandez</h2>
+<h3>-How many rivers and lakes are located in Afar, Ethiopia? <br> -How far are the major towns in Afar from the nearest lake or river? <br>
+ 
+
+  <br>  I chose to create this map because I have heard a lot of news about the ongoing tensions between Ethiopia and Egypt regarding the Nile River. Ethiopia is a "water stressed" country so I thought it would be interesting to see what other sources of freshwater they might have. In order to create this map, I took a shapefile of the entire country of Ethiopia and then I queried the data so that I could focus solely on the area of Afar, Ethiopia. Next, I inserted shapefiles that included all of Ethiopia's rivers and lakes and then I used the intersect tool in order to only display the rivers and lakes that are within the Afar region. Next, I inserted a shapefile of all the major towns in Afar and then I set buffers of 5 km and 10 km on each of the major towns so that we could see how far each major town is from a river or lake. Then, I inserted a raster layer from NaturalEarth in order to show the terrain of the area. This allows us to see that Afar, Ethiopia has a dry/desert climate which can make accessing water even more difficult.  </h3>
+
+<!-- Your map goes here -->
+<a href="./AfarPlainmap.png">
+    <img src="./AfarPlainmap.png" alt="your map" width='500px'>
+    </a>
+
+
+<!-- Your map goes here -->
+<a href="./Afarofficialmap.png">
+    <img src="./Afarofficialmap.png" alt="your map" width='500px'>
+    </a>
+
+
+<!-- Link to your shapefile in Github and you CSV -->
+<h2>Data used for this project</h2>
+    <a href="https://africaopendata.org/dataset/ethiopia-gis-dataset"> Link to Data source</a> <br>
+    <a href= "https://www.naturalearthdata.com/downloads/10m-raster-data/10m-natural-earth-1/"> Link to Data source</a> <br>
+    
+    <p></p>
+    
+
+</body>
+</html>
